@@ -1,0 +1,5 @@
+G:\BookShop\Moy.BookShop\ConvertVideoServer\bin\ConvertVideoServer.dll
+G:\BookShop\Moy.BookShop\ConvertVideoServer\bin\ConvertVideoServer.pdb
+G:\BookShop\Moy.BookShop\ConvertVideoServer\obj\Debug\ConvertVideoServer.csprojResolveAssemblyReference.cache
+G:\BookShop\Moy.BookShop\ConvertVideoServer\obj\Debug\ConvertVideoServer.dll
+G:\BookShop\Moy.BookShop\ConvertVideoServer\obj\Debug\ConvertVideoServer.pdb

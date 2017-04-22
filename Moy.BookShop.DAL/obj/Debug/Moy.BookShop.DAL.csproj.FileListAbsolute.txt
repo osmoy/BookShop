@@ -1,0 +1,7 @@
+G:\BookShop\Moy.BookShop\Moy.BookShop.DAL\bin\Debug\Moy.BookShop.DAL.dll
+G:\BookShop\Moy.BookShop\Moy.BookShop.DAL\bin\Debug\Moy.BookShop.DAL.pdb
+G:\BookShop\Moy.BookShop\Moy.BookShop.DAL\bin\Debug\Moy.BookShop.Model.dll
+G:\BookShop\Moy.BookShop\Moy.BookShop.DAL\bin\Debug\Moy.BookShop.Model.pdb
+G:\BookShop\Moy.BookShop\Moy.BookShop.DAL\obj\Debug\Moy.BookShop.DAL.csprojResolveAssemblyReference.cache
+G:\BookShop\Moy.BookShop\Moy.BookShop.DAL\obj\Debug\Moy.BookShop.DAL.dll
+G:\BookShop\Moy.BookShop\Moy.BookShop.DAL\obj\Debug\Moy.BookShop.DAL.pdb

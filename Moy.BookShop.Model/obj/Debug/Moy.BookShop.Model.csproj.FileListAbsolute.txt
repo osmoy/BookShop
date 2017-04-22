@@ -1,0 +1,5 @@
+G:\BookShop\Moy.BookShop\Moy.BookShop.Model\bin\Debug\Moy.BookShop.Model.dll
+G:\BookShop\Moy.BookShop\Moy.BookShop.Model\bin\Debug\Moy.BookShop.Model.pdb
+G:\BookShop\Moy.BookShop\Moy.BookShop.Model\obj\Debug\Moy.BookShop.Model.csprojResolveAssemblyReference.cache
+G:\BookShop\Moy.BookShop\Moy.BookShop.Model\obj\Debug\Moy.BookShop.Model.dll
+G:\BookShop\Moy.BookShop\Moy.BookShop.Model\obj\Debug\Moy.BookShop.Model.pdb

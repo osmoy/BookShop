@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moy.BookShop.Model", "Moy.BookShop.Model\Moy.BookShop.Model.csproj", "{4303DB63-25A5-44F0-8668-A25CE91CD471}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moy.BookShop.DAL", "Moy.BookShop.DAL\Moy.BookShop.DAL.csproj", "{3928FCF7-8FCF-4C37-B801-9133E48BB8C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moy.BookShop.BLL", "Moy.BookShop.BLL\Moy.BookShop.BLL.csproj", "{5D0C8C89-8082-4C1F-A0ED-EC99A49D2E86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moy.BookShop.Common", "Moy.BookShop.Common\Moy.BookShop.Common.csproj", "{F5C4DDC0-3681-4105-8C93-11BF75C1FFEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moy.BookShop.UI", "Moy.BookShop.UI\Moy.BookShop.UI.csproj", "{FEF606FE-3A42-4A9A-B759-35FBF069D7D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertVideoServer", "ConvertVideoServer\ConvertVideoServer.csproj", "{FFA1CA5B-01D5-48A4-9EC9-767BF0B50F13}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4303DB63-25A5-44F0-8668-A25CE91CD471}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4303DB63-25A5-44F0-8668-A25CE91CD471}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4303DB63-25A5-44F0-8668-A25CE91CD471}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4303DB63-25A5-44F0-8668-A25CE91CD471}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3928FCF7-8FCF-4C37-B801-9133E48BB8C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3928FCF7-8FCF-4C37-B801-9133E48BB8C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3928FCF7-8FCF-4C37-B801-9133E48BB8C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3928FCF7-8FCF-4C37-B801-9133E48BB8C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D0C8C89-8082-4C1F-A0ED-EC99A49D2E86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D0C8C89-8082-4C1F-A0ED-EC99A49D2E86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D0C8C89-8082-4C1F-A0ED-EC99A49D2E86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D0C8C89-8082-4C1F-A0ED-EC99A49D2E86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5C4DDC0-3681-4105-8C93-11BF75C1FFEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5C4DDC0-3681-4105-8C93-11BF75C1FFEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5C4DDC0-3681-4105-8C93-11BF75C1FFEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5C4DDC0-3681-4105-8C93-11BF75C1FFEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEF606FE-3A42-4A9A-B759-35FBF069D7D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEF606FE-3A42-4A9A-B759-35FBF069D7D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEF606FE-3A42-4A9A-B759-35FBF069D7D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEF606FE-3A42-4A9A-B759-35FBF069D7D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFA1CA5B-01D5-48A4-9EC9-767BF0B50F13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFA1CA5B-01D5-48A4-9EC9-767BF0B50F13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFA1CA5B-01D5-48A4-9EC9-767BF0B50F13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFA1CA5B-01D5-48A4-9EC9-767BF0B50F13}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

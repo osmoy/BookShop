@@ -1,0 +1,10 @@
+G:\BookShop\Moy.BookShop\Moy.BookShop.Common\bin\Debug\Moy.BookShop.Common.dll
+G:\BookShop\Moy.BookShop\Moy.BookShop.Common\bin\Debug\Moy.BookShop.Common.pdb
+G:\BookShop\Moy.BookShop\Moy.BookShop.Common\bin\Debug\Lucene.Net.dll
+G:\BookShop\Moy.BookShop\Moy.BookShop.Common\bin\Debug\NVelocity.dll
+G:\BookShop\Moy.BookShop\Moy.BookShop.Common\bin\Debug\PanGu.dll
+G:\BookShop\Moy.BookShop\Moy.BookShop.Common\bin\Debug\PanGu.HighLight.dll
+G:\BookShop\Moy.BookShop\Moy.BookShop.Common\bin\Debug\PanGu.Lucene.Analyzer.dll
+G:\BookShop\Moy.BookShop\Moy.BookShop.Common\obj\Debug\Moy.BookShop.Common.csprojResolveAssemblyReference.cache
+G:\BookShop\Moy.BookShop\Moy.BookShop.Common\obj\Debug\Moy.BookShop.Common.dll
+G:\BookShop\Moy.BookShop\Moy.BookShop.Common\obj\Debug\Moy.BookShop.Common.pdb

@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" EnableViewState="false" CodeBehind="AdminCommon.master.cs" Inherits="Moy.BookShop.UI.Admin.master.AdminCommon" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title><asp:ContentPlaceHolder ID="title" runat="server"></asp:ContentPlaceHolder></title>
+    <link href="<%:ResolveUrl("~/Admin/css/admin.css") %>" rel="stylesheet" />
+    <script src="<%: ResolveUrl("~/libs/js/jquery-1.8.2.min.js") %>"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server" />
+
+</head>
+<body>
+   <div id="header">
+        <img src="images/admin_top.gif" /></div>
+
+    <div id="main">
+        <div id="opt_list">
+            <h1>管理员，您好！</h1>
+            <ul>
+                <li><a href="#">订单管理</a></li>
+                <li><a href="#">用户管理</a></li>
+                <li><a href="#">角色管理</a></li>
+                <li><a href="#">图书分类管理</a></li>
+                <li><a href="#">图书管理</a></li>
+                <li><a href="#">销售统计</a></li>
+                <li><a href="/Admin/ashx/LogOut.ashx">安全退出</a></li>
+            </ul>
+        </div>
+        <div id="opt_area">
+            <!-- 后台管理内容显示区域 -->
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+        </div>
+    </div>
+    <asp:ContentPlaceHolder ID="Script" runat="server"/>
+</body>
+</html>
