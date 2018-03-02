@@ -10,9 +10,7 @@ namespace Moy.BookShop.DAL
 {
     public class CaptchaService
     {
-        /// <summary>
-        /// 添加用户激活信息
-        /// </summary>      
+  
         public void Add(int userId, string token)
         {
             SqlHelper.ExecuteNonQuery(@"insert into Captcha(UserId, Token, Actived, Expired) 

@@ -54,22 +54,19 @@ namespace Moy.BookShop.BLL
             return new BookService().GetPage();
         }
 
-        /// <summary>
-        /// 创建静态页面（根据商品id）
-        /// </summary>
         public static void CreateHtmlPage(int id)
         {
-            #region 第一个版本：使用replace替换
+            #region 第一个版本
             //Book book = new BookService().GetById(id);
             //if (book != null)
             //{
-            //    string path = HttpContext.Current.Server.MapPath("~/templates/BookDetatil.html");//找到模板路径..
-            //    //读取模板中的内容..
+            //    string path = HttpContext.Current.Server.MapPath("~/templates/BookDetatil.html");
+            //   
             //    string content = System.IO.File.ReadAllText(path);
-            //    content = content.Replace("$title", book.Title).Replace("$body", book.ContentDescription);//替换模板中的内容
-            //    //把替换好的内容保存成一个文件.
+            //    content = content.Replace("$title", book.Title).Replace("$body", book.ContentDescription);
+            //    
             //    string dir = HttpContext.Current.Server.MapPath("~/staticPage/" + book.PublishDate.ToString("yyyy-MM-dd") + "/");
-            //    ///创建文件夹
+            //  
             //    System.IO.Directory.CreateDirectory(System.IO.Path.GetDirectoryName(dir));
             //    System.IO.File.WriteAllText(dir + book.ISBN + ".html", content, Encoding.UTF8);
             //}

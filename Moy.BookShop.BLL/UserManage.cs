@@ -11,13 +11,6 @@ namespace Moy.BookShop.BLL
 {
     public class UserManage
     {
-        /// <summary>
-        /// 是否登陆成功
-        /// </summary>
-        /// <param name="loginId"></param>
-        /// <param name="loginPwd"></param>
-        /// <param name="user"></param>
-        /// <returns></returns>
         public static LoginResult IsLogin(string loginId, string loginPwd, out User user)
         {
             User u = new UserService().GetByLoginId(loginId);
@@ -46,11 +39,6 @@ namespace Moy.BookShop.BLL
             }
         }
 
-        /// <summary>
-        /// 判断是否注册成功
-        /// </summary>
-        /// <param name="loginId"></param>
-        /// <returns></returns>
         public static RegisterResult IsRegiser(User user)
         {
             User u = new UserService().GetByLoginId(user.LoginId);
@@ -58,11 +46,11 @@ namespace Moy.BookShop.BLL
             {
                 return RegisterResult.用户名已存在;
             }
-            else//没有注册
+            else
             {
                 user.UserRole = new UserRole() { Id = 1, Name = "普通用户" };
                 user.UserState = new UserState() { Id = 1, Name = "正常" };
-                int n = new UserService().Add(user);    //拿到刚注册的用户id.
+                int n = new UserService().Add(user);    
                 if (n > 0)
                 {
                     user.Id = n;
@@ -75,22 +63,11 @@ namespace Moy.BookShop.BLL
             }
         }
 
-        /// <summary>
-        /// 获取所有用户信息
-        /// </summary>
-        /// <returns></returns>
         public static List<User> GetAllUsers()
         {
             return new UserService().GetAllUsers();
         }
 
-        /// <summary>
-        /// 通过用户名查询用户信息，非管理员用户不允许登陆
-        /// </summary>
-        /// <param name="loginId"></param>
-        /// <param name="loginPwd"></param>
-        /// <param name="msg"></param>
-        /// <returns></returns>
         public static bool SearchByLoginId(string loginId, string loginPwd, out string msg)
         {
             User user = new UserService().GetByLoginId(loginId);

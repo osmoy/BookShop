@@ -24,7 +24,7 @@ namespace Moy.BookShop.UI.account
                 string email = Request.Form["email"];
                 string birthday = Request.Form["birthday"];
                 string vCode = Request.Form["vCode"];
-                //string url = Request.Form["returnUrl"];   //url跳转，看需求..
+                //string url = Request.Form["returnUrl"];
 
                 CheckEmpty(userName, pwd, realName);
                 ////todo...校验非空，合法性、异步检查信息..

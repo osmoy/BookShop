@@ -11,11 +11,6 @@ namespace Moy.BookShop.DAL
 {
     public class UserRoleService
     {
-        /// <summary>
-        /// 根据id查询用户角色名
-        /// </summary>
-        /// <param name="id"></param>
-        /// <returns></returns>
         public UserRole GetByUserRoleId(int id)
         {
             UserRole role = null;

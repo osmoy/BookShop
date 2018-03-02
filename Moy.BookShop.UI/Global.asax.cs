@@ -25,7 +25,9 @@ namespace Moy.BookShop.UI
         protected void Application_BeginRequest(object sender, EventArgs e)
         {
             string url = Request.AppRelativeCurrentExecutionFilePath;
+
             Match match = Regex.Match(url, @"/book/BookList_(\d+).aspx");
+
             if (match.Success)
             {
                 Context.RewritePath("/book/BookList.aspx?pageIndex=" + match.Groups[1].Value);

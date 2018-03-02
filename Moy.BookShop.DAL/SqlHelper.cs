@@ -178,12 +178,6 @@ namespace Moy.BookShop.DAL
         //}
         #endregion
 
-        /// <summary>
-        /// 执行存储过程，返回SqlDataReader ( 注意：调用该方法后，一定要对SqlDataReader进行Close )
-        /// </summary>
-        /// <param name="storedProcName">存储过程名</param>
-        /// <param name="parameters">存储过程参数</param>
-        /// <returns>SqlDataReader</returns>
         public static SqlDataReader RunProcedure(string storedProcName, IDataParameter[] parameters)
         {
             SqlConnection connection = new SqlConnection(connStr);
@@ -194,13 +188,7 @@ namespace Moy.BookShop.DAL
             returnReader = command.ExecuteReader(CommandBehavior.CloseConnection);
             return returnReader;
         }
-        /// <summary>
-        /// 执行存储过程
-        /// </summary>
-        /// <param name="storedProcName">存储过程名</param>
-        /// <param name="parameters">存储过程参数</param>
-        /// <param name="tableName">DataSet结果中的表名</param>
-        /// <returns>DataSet</returns>
+
         public static DataSet RunProcedure(string storedProcName, IDataParameter[] parameters, string tableName)
         {
             using (SqlConnection connection = new SqlConnection(connStr))
@@ -228,9 +216,7 @@ namespace Moy.BookShop.DAL
                 return dataSet;
             }
         }
-        /// <summary>
-        /// 构建 SqlCommand 对象(用来返回一个结果集，而不是一个整数值)
-        /// </summary>       
+ 
         private static SqlCommand BuildQueryCommand(SqlConnection connection, string storedProcName, IDataParameter[] parameters)
         {
             SqlCommand command = new SqlCommand(storedProcName, connection);
@@ -251,9 +237,7 @@ namespace Moy.BookShop.DAL
 
             return command;
         }
-        /// <summary>
-        /// 执行存储过程，返回影响的行数		
-        /// </summary>    
+ 
         public static int RunProcedure(string storedProcName, IDataParameter[] parameters, out int rowsAffected)
         {
             using (SqlConnection connection = new SqlConnection(connStr))
@@ -268,12 +252,6 @@ namespace Moy.BookShop.DAL
             }
         }
 
-        /// <summary>
-        /// 创建 SqlCommand 对象实例(用来返回一个整数值)	
-        /// </summary>
-        /// <param name="storedProcName">存储过程名</param>
-        /// <param name="parameters">存储过程参数</param>
-        /// <returns>SqlCommand 对象实例</returns>
         private static SqlCommand BuildIntCommand(SqlConnection connection, string storedProcName, IDataParameter[] parameters)
         {
             SqlCommand command = BuildQueryCommand(connection, storedProcName, parameters);

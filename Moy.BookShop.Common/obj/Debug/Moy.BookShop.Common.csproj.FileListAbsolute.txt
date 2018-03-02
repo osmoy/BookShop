@@ -8,3 +8,13 @@ G:\BookShop\Moy.BookShop\Moy.BookShop.Common\bin\Debug\PanGu.Lucene.Analyzer.dll
 G:\BookShop\Moy.BookShop\Moy.BookShop.Common\obj\Debug\Moy.BookShop.Common.csprojResolveAssemblyReference.cache
 G:\BookShop\Moy.BookShop\Moy.BookShop.Common\obj\Debug\Moy.BookShop.Common.dll
 G:\BookShop\Moy.BookShop\Moy.BookShop.Common\obj\Debug\Moy.BookShop.Common.pdb
+C:\Users\Administrator\Desktop\新建文件夹\22\BookShop\Moy.BookShop.Common\bin\Debug\Moy.BookShop.Common.dll
+C:\Users\Administrator\Desktop\新建文件夹\22\BookShop\Moy.BookShop.Common\bin\Debug\Moy.BookShop.Common.pdb
+C:\Users\Administrator\Desktop\新建文件夹\22\BookShop\Moy.BookShop.Common\bin\Debug\Lucene.Net.dll
+C:\Users\Administrator\Desktop\新建文件夹\22\BookShop\Moy.BookShop.Common\bin\Debug\NVelocity.dll
+C:\Users\Administrator\Desktop\新建文件夹\22\BookShop\Moy.BookShop.Common\bin\Debug\PanGu.dll
+C:\Users\Administrator\Desktop\新建文件夹\22\BookShop\Moy.BookShop.Common\bin\Debug\PanGu.HighLight.dll
+C:\Users\Administrator\Desktop\新建文件夹\22\BookShop\Moy.BookShop.Common\bin\Debug\PanGu.Lucene.Analyzer.dll
+C:\Users\Administrator\Desktop\新建文件夹\22\BookShop\Moy.BookShop.Common\obj\Debug\Moy.BookShop.Common.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\新建文件夹\22\BookShop\Moy.BookShop.Common\obj\Debug\Moy.BookShop.Common.dll
+C:\Users\Administrator\Desktop\新建文件夹\22\BookShop\Moy.BookShop.Common\obj\Debug\Moy.BookShop.Common.pdb

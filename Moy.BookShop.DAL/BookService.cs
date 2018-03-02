@@ -79,11 +79,7 @@ namespace Moy.BookShop.DAL
                 new SqlParameter("@CategoryId", book.Category.Id),
                 new SqlParameter("@Clicks", book.Clicks));
         }
-        /// <summary>
-        /// 获取指定类别下总数据（如果为0，查询所有）
-        /// </summary>
-        /// <param name="categoryId"></param>
-        /// <returns></returns>
+
         public int GetTotalCount(int categoryId)
         {
             string sql = "select count(0) from Books";
@@ -94,13 +90,6 @@ namespace Moy.BookShop.DAL
             return (int)SqlHelper.ExecuteScalar(sql, CommandType.Text, new SqlParameter("@CategoryId", categoryId));
         }
 
-        /// <summary>
-        /// 获取分页数据..
-        /// </summary>
-        /// <param name="start"></param>
-        /// <param name="end"></param>
-        /// <param name="categoryId"></param>
-        /// <returns></returns>
         public IEnumerable<Book> GetByPage(int pageIndex, int pageSize, int categoryId)
         {
             string sql = @"select * from
@@ -117,7 +106,6 @@ namespace Moy.BookShop.DAL
             return GetBooksBySql(sql, paras);
         }
 
-        ///封装List
         private IEnumerable<Book> GetBooksBySql(string sql, params SqlParameter[] cmdParas)
         {
             DataTable dt = SqlHelper.ExecuteTable(sql, CommandType.Text, cmdParas);
@@ -137,7 +125,6 @@ namespace Moy.BookShop.DAL
             }
         }
 
-        ///封装Model
         private Book ToBook(DataRow row)
         {
             return new Book()

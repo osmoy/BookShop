@@ -11,11 +11,6 @@ namespace Moy.BookShop.DAL
 {
     public class UserStateService
     {
-        /// <summary>
-        /// 根据id查询用户状态
-        /// </summary>
-        /// <param name="id"></param>
-        /// <returns></returns>
         public UserState GetByUserStateId(int id)
         {
             UserState state = null;

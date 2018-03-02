@@ -54,7 +54,6 @@ namespace Moy.BookShop.UI.account
                 string url = Request.Form["returnUrl"];
                 Model.User user = null;
 
-                ///校验非空
                 CheckEmpty(userName, password, vCode);
                 if (Session["Vcode"] != null)
                 {
@@ -88,7 +87,6 @@ namespace Moy.BookShop.UI.account
                             cookie.Expires = DateTime.Now.AddDays(7);
                             Response.Cookies.Add(cookie);
                         }
-                        //记录Session
                         Session["currentUser"] = user;
                         GoPage(url);
                         break;
@@ -102,7 +100,7 @@ namespace Moy.BookShop.UI.account
             {
                 Response.Redirect(url);
             }
-            //跳转
+
             Response.Redirect("/ShowMsg.aspx?msg=" + Server.UrlEncode(msg) + "&txt=" + Server.HtmlEncode("首页")
                 + "&url=" + Server.HtmlEncode("/book/Index.aspx"));
         }

@@ -14,6 +14,7 @@ namespace Moy.BookShop.UI.global
     public class CreateIndex
     {
         public static CreateIndex index = new CreateIndex();
+
         private static readonly string indexPath = ConfigurationManager.AppSettings["indexPath"];
 
         Queue<Job> queen = new Queue<Job>();
@@ -82,7 +83,6 @@ namespace Moy.BookShop.UI.global
             IndexWriter writer = new IndexWriter(directory, new PanGuAnalyzer(), !isExist,
                 Lucene.Net.Index.IndexWriter.MaxFieldLength.UNLIMITED);
 
-            //var books = BLL.BookManage.GetAll();
             while (queen.Count > 0)
             {
                 Job job = queen.Dequeue();
@@ -105,6 +105,7 @@ namespace Moy.BookShop.UI.global
                 writer.AddDocument(document);
 
                 writer.Close();
+
                 directory.Close();
             }
 

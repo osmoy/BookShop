@@ -11,11 +11,7 @@ namespace Moy.BookShop.DAL
 {
     public class CartService
     {
-        /// <summary>
-        /// 添加商品到购物车
-        /// </summary>
-        /// <param name="cart"></param>
-        /// <returns></returns>
+
         public int Add(Cart cart)
         {
             return SqlHelper.ExecuteNonQuery("insert into Cart(UserId,BookId,Quantity) values(@UserId,@BookId,@Quantity)",
@@ -23,33 +19,18 @@ namespace Moy.BookShop.DAL
                 new SqlParameter("@BookId", cart.Book.Id), new SqlParameter("@Quantity", cart.Quantit));
         }
 
-        /// <summary>
-        /// 从购物车移除商品
-        /// </summary>
-        /// <param name="id"></param>
-        /// <returns></returns>
+
         public int Delete(int id)
         {
             return SqlHelper.ExecuteNonQuery("delete from Cart where Id=@Id", CommandType.Text, new SqlParameter("@Id", id));
         }
 
-        /// <summary>
-        /// 更新购物车商品的数量
-        /// </summary>
-        /// <param name="cart"></param>
-        /// <returns></returns>
         public int Modify(Cart cart)
         {
             return SqlHelper.ExecuteNonQuery("update Cart set Quantity=@Quantity where Id=@Id", CommandType.Text,
                  new SqlParameter("@Quantity", cart.Quantit), new SqlParameter("@Id", cart.Id));
         }
 
-        /// <summary>
-        /// 根据用户id和商品id查询
-        /// </summary>
-        /// <param name="bookId"></param>
-        /// <param name="userId"></param>
-        /// <returns></returns>
         public Cart GetById(int bookId, int userId)
         {
             Cart cart = null;
@@ -76,11 +57,6 @@ namespace Moy.BookShop.DAL
             };
         }
 
-        /// <summary>
-        /// 获取当前用户购物车的所有商品
-        /// </summary>
-        /// <param name="userId"></param>
-        /// <returns></returns>
         public IEnumerable<Cart> GetAll(int userId)
         {
             IList<Cart> list = new List<Cart>();
@@ -100,11 +76,6 @@ namespace Moy.BookShop.DAL
             return list;
         }
 
-        /// <summary>
-        /// 根据主键id查询信息
-        /// </summary>
-        /// <param name="id"></param>
-        /// <returns></returns>
         public Cart GetById(int id)
         {
             Cart cart = null;

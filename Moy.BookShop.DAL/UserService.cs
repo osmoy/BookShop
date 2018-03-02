@@ -11,11 +11,6 @@ namespace Moy.BookShop.DAL
 {
     public class UserService
     {
-        /// <summary>
-        /// 根据id查询用户信息，没有返回null
-        /// </summary>
-        /// <param name="loginId"></param>
-        /// <returns></returns>
         public User GetByLoginId(string loginId)
         {
             User user = null;
@@ -42,11 +37,6 @@ namespace Moy.BookShop.DAL
             return user;
         }
 
-        /// <summary>
-        /// 添加用户信息（返回刚插入的id，这里用Scalar语句）
-        /// </summary>
-        /// <param name="user"></param>
-        /// <returns></returns>
         public int Add(User user)
         {
             return (int)SqlHelper.ExecuteScalar(@"insert into Users(LoginId,LoginPwd,Name,[Address],Phone,Mail,Birthday,UserRoleId,UserStateId,RegisterIp,RegisterTime) 
@@ -63,10 +53,6 @@ namespace Moy.BookShop.DAL
                 new SqlParameter("@RegisterIp", user.RegisterIp));
         }
 
-        /// <summary>
-        /// 查询所有用户信息
-        /// </summary>
-        /// <returns></returns>
         public List<User> GetAllUsers()
         {
             DataTable dt = SqlHelper.ExecuteTable("select Id,LoginId,Name,[Address],Phone,Mail,Birthday,UserRoleId,UserStateId from Users", CommandType.Text);

@@ -11,7 +11,6 @@ namespace Moy.BookShop.DAL
 {
     public class PublishService
     {
-        /// 根据id查询出版社
         public Publisher GetPublishById(int id)
         {
             Publisher publish = null;
@@ -31,7 +30,6 @@ namespace Moy.BookShop.DAL
             return publish;
         }
 
-        /// 获取所有出版社
         public List<Publisher> GetAll()
         {
             DataTable dt = SqlHelper.ExecuteTable("select Id,Name from Publishers", CommandType.Text);
@@ -55,14 +53,12 @@ namespace Moy.BookShop.DAL
             }
         }
 
-        /// 添加出版社
         public int Add(Publisher publish)
         {
             return SqlHelper.ExecuteNonQuery("insert into Publishers(Name) values(@name)",
                  CommandType.Text, new SqlParameter("@name", publish.Name));
         }
 
-       ///根据id删除出版社
         public int Delete(int id)
         {
             return SqlHelper.ExecuteNonQuery("delete from Publishers where Id=@Id",

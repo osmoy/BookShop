@@ -5,3 +5,10 @@ G:\BookShop\Moy.BookShop\Moy.BookShop.DAL\bin\Debug\Moy.BookShop.Model.pdb
 G:\BookShop\Moy.BookShop\Moy.BookShop.DAL\obj\Debug\Moy.BookShop.DAL.csprojResolveAssemblyReference.cache
 G:\BookShop\Moy.BookShop\Moy.BookShop.DAL\obj\Debug\Moy.BookShop.DAL.dll
 G:\BookShop\Moy.BookShop\Moy.BookShop.DAL\obj\Debug\Moy.BookShop.DAL.pdb
+C:\Users\Administrator\Desktop\新建文件夹\22\BookShop\Moy.BookShop.DAL\bin\Debug\Moy.BookShop.DAL.dll
+C:\Users\Administrator\Desktop\新建文件夹\22\BookShop\Moy.BookShop.DAL\bin\Debug\Moy.BookShop.DAL.pdb
+C:\Users\Administrator\Desktop\新建文件夹\22\BookShop\Moy.BookShop.DAL\bin\Debug\Moy.BookShop.Model.dll
+C:\Users\Administrator\Desktop\新建文件夹\22\BookShop\Moy.BookShop.DAL\bin\Debug\Moy.BookShop.Model.pdb
+C:\Users\Administrator\Desktop\新建文件夹\22\BookShop\Moy.BookShop.DAL\obj\Debug\Moy.BookShop.DAL.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\新建文件夹\22\BookShop\Moy.BookShop.DAL\obj\Debug\Moy.BookShop.DAL.dll
+C:\Users\Administrator\Desktop\新建文件夹\22\BookShop\Moy.BookShop.DAL\obj\Debug\Moy.BookShop.DAL.pdb

@@ -59,7 +59,6 @@ namespace Moy.BookShop.UI.book
 
             var pay = new aliPay.Pay("图书", "图书商城", orderNo, totalFee);
 
-            //跳转
             Response.Redirect(pay.PayUrl());
         }
 

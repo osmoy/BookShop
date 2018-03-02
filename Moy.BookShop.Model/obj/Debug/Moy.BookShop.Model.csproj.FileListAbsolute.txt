@@ -3,3 +3,7 @@ G:\BookShop\Moy.BookShop\Moy.BookShop.Model\bin\Debug\Moy.BookShop.Model.pdb
 G:\BookShop\Moy.BookShop\Moy.BookShop.Model\obj\Debug\Moy.BookShop.Model.csprojResolveAssemblyReference.cache
 G:\BookShop\Moy.BookShop\Moy.BookShop.Model\obj\Debug\Moy.BookShop.Model.dll
 G:\BookShop\Moy.BookShop\Moy.BookShop.Model\obj\Debug\Moy.BookShop.Model.pdb
+C:\Users\Administrator\Desktop\新建文件夹\22\BookShop\Moy.BookShop.Model\bin\Debug\Moy.BookShop.Model.dll
+C:\Users\Administrator\Desktop\新建文件夹\22\BookShop\Moy.BookShop.Model\bin\Debug\Moy.BookShop.Model.pdb
+C:\Users\Administrator\Desktop\新建文件夹\22\BookShop\Moy.BookShop.Model\obj\Debug\Moy.BookShop.Model.dll
+C:\Users\Administrator\Desktop\新建文件夹\22\BookShop\Moy.BookShop.Model\obj\Debug\Moy.BookShop.Model.pdb

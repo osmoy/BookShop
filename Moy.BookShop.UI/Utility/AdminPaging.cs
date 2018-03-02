@@ -10,20 +10,20 @@ namespace Moy.BookShop.UI.Utility
     {
         public static string PageList(int pageIndex, int pageCount)
         {
-            if (pageCount == 1) //如果只有1页，直接返回..
+            if (pageCount == 1)
             {
                 return null;
             }
-            int start = pageIndex - 5;//显示10条页码。
+            int start = pageIndex - 5;
             if (start < 1)
             {
                 start = 1;
             }
-            int end = start + 9;//计算终止位置
+            int end = start + 9;
             if (end > pageCount)
             {
                 end = pageCount;
-                start = end - 9 > 0 ? end - 9 : 1;  //重新计算起始位置..
+                start = end - 9 > 0 ? end - 9 : 1;
             }
             StringBuilder sb = new StringBuilder();
             #region MyRegion

@@ -23,9 +23,6 @@ namespace Moy.BookShop.UI.test
             video.Title = txtTitle.Text;
             video.FileExt = System.IO.Path.GetExtension(FileUpload.FileName);
 
-            //TODO 插入一条记录.并返回记录行数
-            //bll.Add(model)
-
             string url = "http://localhost:6242/UploadVideo.ashx?Id=" + video.Id + "&fileExt=" + video.FileExt;
             System.Net.WebClient wc = new System.Net.WebClient();
             wc.UploadData(url, FileUpload.FileBytes);

@@ -15,9 +15,6 @@ namespace Moy.BookShop.DAL
              new SqlParameter("@Title", comment.Title), new SqlParameter("@Comment", comment.Content));
         }
 
-        /// <summary>
-        /// 返回指定书籍下的所有评论
-        /// </summary>
         public IEnumerable<Comment> GetAll(int bookId)
         {
             DataTable dt = SqlHelper.ExecuteTable("select * from ReaderComments where BookId=@BookId order by Date desc",
